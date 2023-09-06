@@ -1,0 +1,14 @@
+{
+  "name": "proyectotailwind",
+  "version": "1.0.0",
+  "description": "primer ejercicio con tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build":"npx tailwindcss -o ./dist/build.css --minify"},
+  "author": "Miguel Rodriguez",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
